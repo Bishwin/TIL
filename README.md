@@ -2,7 +2,7 @@
 ###### by bishwin
 
 ## Steps
-1. `git clone`
+1. `git clone git@github.com:Bishwin/selftitled.git`
 1. `mkvirtualenv wholesome`
 1. `pip install -r requirements`
 1. run with `make devserver`
