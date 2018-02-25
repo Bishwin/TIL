@@ -1,4 +1,4 @@
-.py[cod]
+*.py[cod]
 
 # User-specific stuff:
 .idea/**/workspace.xml
