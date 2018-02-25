@@ -8,7 +8,7 @@ Tags:
 Category:
 Slug: {slug}
 Summary:
-Status: draft
+Status: Published
 {hashes}
 
 
