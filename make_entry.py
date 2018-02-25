@@ -11,8 +11,6 @@ Summary:
 Status: Published
 {hashes}
 
-
-
 """
 
 
