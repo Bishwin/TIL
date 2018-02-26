@@ -31,8 +31,25 @@ To add your own custom method to use with Fabric:
 1. use method with `fab your_method_name: <your_args>`
 
 
-
-
 ## Editing a post  
 `Status: draft` moves content to drafts and isn't visible on homepage  
 `Status: published` sets a post visible and appears on homepage   
+
+## Hosting with github pages
+
+using `ghp-import` we can push the `Pelican` generated output directory to a github repo.  
+change to your repo details and run the following:
+```
+ghp-import output
+git push git@github.com:<username>/<username>.github.io.git gh-pages:master
+```
+
+your site should be up on githubpages
+
+### Automating deploying to github
+
+y'all need to edit `fabfile.py` with your github repo details.
+
+1. open `fabfile.py`
+1. edit line `143` to the repo you used above
+1. `fab github` to push
