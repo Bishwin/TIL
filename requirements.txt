@@ -7,6 +7,7 @@ docutils==0.14
 enum34==1.1.6
 Fabric==1.14.0
 feedgenerator==1.9
+ghp-import==0.5.5
 idna==2.6
 ipaddress==1.0.19
 Jinja2==2.10
@@ -14,7 +15,6 @@ Markdown==2.6.11
 MarkupSafe==1.0
 paramiko==2.4.0
 pelican==3.7.1
-pkg-resources==0.0.0
 pyasn1==0.4.2
 pycparser==2.18
 Pygments==2.2.0
