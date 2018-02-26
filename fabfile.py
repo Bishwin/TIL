@@ -122,3 +122,24 @@ def make_entry(title):
     with open(f_create, 'w') as w:
         w.write(t)
     print("File created -> " + f_create)
+
+
+def enter_dns_file():
+    with open('output/CNAME', 'w') as f:
+        f.write('bishw.in')
+
+
+def github(publish_drafts=False):
+
+    try:
+        if os.path.exists('output/drafts'):
+            if not publish_drafts:
+                local('rm -rf output/drafts')
+    except Exception:
+        pass
+
+    local('ghp-import output')
+    local('git push '
+          'git@github.com:Bishwin/bishwin.github.io.git '
+          'gh-pages:master')
+    local('rm -rf output')

@@ -1,6 +1,7 @@
 *.py[cod]
 *.idea/*
 *.pid
+./output/*
 
 # User-specific stuff:
 .idea/**/workspace.xml
