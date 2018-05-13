@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'bishwin'
-SITENAME = u'selftitled'
+SITENAME = u'Thing I learn'
 SITEURL = ''
 
 PATH = 'content'
@@ -20,14 +20,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Twitter', 'https://twitter.com/bishwinn'),
+         ('Github', 'http://python.org/'),
+         ('Linkedin', '/https://www.linkedin.com/in/bishwin/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'https://twitter.com/bishwinn'),
+         ('Github', 'https://github.com/Bishwin'),
+         ('Linkedin', '/https://www.linkedin.com/in/bishwin/'),)
 
 DEFAULT_PAGINATION = 8
 
